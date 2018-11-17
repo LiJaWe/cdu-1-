@@ -1,0 +1,168 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    min-width: 70%;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+.first {
+    height: auto;
+    width: auto;
+    background: #333;
+    position: relative;
+}
+
+.fff-4:hover span {
+    display: block;
+}
+
+.fff-3 {
+    width: 120px;
+    height: 150px;
+    box-shadow: rgb(170, 170, 170) 0px 1px 5px;
+    position: absolute;
+    top: 20px;
+    left: -40px;
+    text-align: center;
+    display: none;
+    z-index: 999;
+    background: #ffffff;
+}
+
+.fff-3 img {
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.first-1 {
+    height: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.first-11 {
+    float: left;
+}
+
+.first-11 a {
+    font-size: 11px;
+    color: #b0b0b0;
+    line-height: 30px;
+}
+
+.first-11 a:hover {
+    color: aliceblue;
+}
+
+.first-11 span {
+    color: #424242;
+    line-height: 30px;
+}
+
+.first-12 {
+    float: right;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    background: #adadad42;
+    position: relative;
+    z-index: 999;
+}
+
+.first-12 a {
+    font-size: 11px;
+    color: #b0b0b0;
+    line-height: 30px;
+}
+
+.first-12:hover {
+    background: aliceblue;
+}
+
+.first-12:hover a {
+    color: #ff6700;
+}
+
+.first-12 img {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    padding-right: 3px;
+}
+
+.fff-2 {
+    display: none;
+}
+
+.first-12:hover .fff-1 {
+    display: none;
+}
+
+.first-12:hover .fff {
+    display: block;
+}
+
+.fff {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 80px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    line-height: 80px;
+    display: none;
+}
+
+.fff p {
+    font-size: 11px;
+    color: #424242;
+}
+
+.first-13 {
+    float: right;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.first-13 a {
+    font-size: 11px;
+    color: #b0b0b0;
+    line-height: 30px;
+}
+
+.first-13 a:hover {
+    color: aliceblue;
+}
+
+.first-13 span {
+    color: #424242;
+    line-height: 30px;
+}
+
+.second {
+    width: 70%;
+    margin: 0 auto;
+    height: 80px;
+    background: #b0b0b0;
+    position: relative;
+    z-index: 20;
+}
+
+.second-1 {
+    width: 57px;
+    height: 80px;
+    background: rgb(133, 150, 106);
+    float: left;
+}
